@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.redes-sociais a img{
+    height: 35px;
+    width: 35px;
+}
+
+.login-form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color:white;
+  padding: 60px;
+  margin: 100px;
+  border-radius: 8px;
+  box-shadow: -1px -1px 10px  #403D49;
+  gap: 20px;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-image: url(imagens/fundo-geometrico-amarelo-e-preto.jpg);
+    background-size: cover;
+    background-position: 50%;
+}
+
+.form-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form-header i{
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.form-header i:hover{
+    transform: scale(1.2);
+}
+
+.form-header h1{
+    font-size: 50px;
+    font-weight: 600;
+    position: relative;
+}
+
+.form-header h1::before{
+    position: absolute;
+    content: " ";
+    width: 40%;
+    background-color: #ffb245;
+    height: 3px;
+    bottom: 6px;
+    border-radius: 8px;
+}
+
+
+.redes-sociais {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.redes-sociais img:hover{
+    transform: scale(1.2);
+}
+
+
+.inputs .inputs-box input{
+    display: flex;
+}
+
+.inputs-box{
+    line-height: 15px;
+    font-weight: 500;
+}
+
+.inputs-box input{
+    border:none;
+    border-bottom: 1px solid #ffb245;
+    cursor: text;
+    background-color: transparent;
+    width: 220px;
+    padding: 5px;
+    font-size: 14px;
+}
+
+.inputs-box input:focus{
+    outline: none;
+}
+
+#login-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+
+#login-button button{
+    padding: 10px 50px 10px 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    background-color: #403D49;
+    border-radius: 3px;
+    color: #ffb245;
+    box-shadow: 2px 2px 5px #403D49;
+    border: none;
+}
+
+#login-button button:hover{
+    transform: scale(1.1);
+    
+}
